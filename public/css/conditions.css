@@ -1,0 +1,42 @@
+.conditions{
+    position: relative;
+}
+
+.conditions ul li{
+  text-align: left;
+  padding-left: 30px;
+  position: relative;
+  top: -30px;
+}
+.conditions ul li::after{
+    content: '';
+    top: 8px;
+    left: 4px;
+    background-color: var(--text);
+    width: 14px;
+    height: 2px;
+    position: absolute;
+  }
+
+.conditions-title {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 90px 0px 0px 0px;
+    
+}
+.h2 {
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 21px;
+}
+.h6 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.del {
+    text-decoration: line-through;
+    margin-right: 9px;
+}

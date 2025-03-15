@@ -1,0 +1,48 @@
+.main-block {
+    position: relative;
+}
+
+.main-block::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(45deg, rgba(255, 255, 255, 1) 4%, rgba(255, 255, 255, 0) 88%);
+}
+
+.main-bg img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-position: right;
+}
+
+.main-content {
+    position: relative;
+    display: flex;
+}
+
+.main-card {
+    position: relative;
+    z-index: 3;
+    flex: 0 1 50%;
+}
+
+.main-img {
+    position: relative;
+    z-index: 3;
+    flex: 0 1 50%;
+}
+
+@media (max-width:480px) {
+    .main-content {
+        display: block;
+    }
+}

@@ -1,0 +1,15 @@
+:root {
+    --btn-color: #ffc771;
+
+    /* --btn-color: linear-gradient(45deg, #fdc75e 0%, #ffdb9f 48%, #fecd74 100%); */
+
+    --btn-color2: #ffc858;
+    --text: #593f0d;
+    --text-btns: #593f0d;
+    --grey: #252525;
+}
+
+.gradient {
+    background: #ffc858;
+    background: linear-gradient(45deg, #fdc75e 0%, #ffdb9f 48%, #fecd74 100%);
+}

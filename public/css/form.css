@@ -1,0 +1,48 @@
+.modal-body {}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.form-span {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding: 20px 0px;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.input:focus{
+    background-color: rgb(255, 255, 255);
+}
+
+.input:active{
+    background-color: rgb(255, 255, 255);
+}
+
+.form-btn {
+ 
+    outline: none;
+    border: none;
+    width: 50%;
+    margin: 70px auto;
+}
+
+.form-span {
+    color: var(--grey);
+}
