@@ -93,18 +93,18 @@ require 'valid.php';
                             <a href="#close" title="Close" class="close">&#x2715</a>
                         </div>
                         <div class="modal-body">
-                            <div class="header-logo mb-5">
+                            <div class="header-logo ">
                                 <img class="logo-img" src="img/logo.png" alt="s">
                                 <a class=" h-color h-logo" href="/">Секрет чистого будущего</a>
                             </div>
-                            <div class="header-socials mb-5 ">
+                            <div class="header-socials mb-15 ">
                                 <p class="t-mes m-r40"> связаться с нами через месенджеры</p>
                                 <a class="nav-link" target="_blank" href="https://t.me/+79503108090"><img src="/img/icon/t.png" alt=""></a>
                                 <a class="nav-link" target="_blank" style="width: 48px;" href="https://api.whatsapp.com/send?phone=89503108090"><img src="/img/icon/w2.png" alt=""></a>
                             </div>
                             <div class="header-cont">
                                 <div class="phone m-r mb-5">
-                                    <a class="st-link" href="tel:+79503108090">+7(950)3108090</a>
+                                    <a class="st-link" href="tel:+79503108090">+7(950)310-80-90</a>
                                     <p class="after">по будням с 9:00 до 17:00</p>
                                 </div>
                                 <div class="header-btn">
@@ -137,7 +137,7 @@ require 'valid.php';
     </header>
     <main>
         <span class="ancor" id="ancor"></span>
-        
+
         <section class="main-block p-100 ow-hiden">
             <div class="main-bg">
                 <img src="img/main-bg.png" alt="main-bg">
@@ -298,10 +298,10 @@ require 'valid.php';
                     <div class="card-img">
                         <img src="img/bio3.png" alt="img">
                     </div>
-                    <h3 class="card-title font-w">
+                    <h3 class="card-title ">
                         Набор &laquo<span class="yellow">СЕПТИК</span>&raquo
                     </h3>
-                    <p class="">от <span class="del">150000</span> <span class="yellow">130000</span>&#8381</p>
+                    <p class="fw-6">от <span class="del">150000</span> <span class="yellow">130000</span>&#8381</p>
 
                     <p class="card-description">
                     <ul>
@@ -319,10 +319,10 @@ require 'valid.php';
                     <div class="card-img">
                         <img src="img/c3.png" alt="img">
                     </div>
-                    <h3 class="card-title font-w">
+                    <h3 class="card-title ">
                         Набор &laquo<span class="yellow">КОЛОДЕЦ</span>&raquo
                     </h3>
-                    <p class="">от <span class="del">20000</span> <span class="yellow">40000</span>&#8381</p>
+                    <p class="fw-6">от <span class="del">20000</span> <span class="yellow">40000</span>&#8381</p>
                     <p class="card-description">
                     <ul>
                         <li>Полимерно-песчанный колодец</li>
@@ -338,10 +338,10 @@ require 'valid.php';
                     <div class="card-img">
                         <img src="img/с2.jpg" alt="img">
                     </div>
-                    <h3 class="card-title font-w">
+                    <h3 class="card-title ">
                         Набор &laquo<span class="yellow">БЕТОН</span>&raquo
                     </h3>
-                    <p class="">от <span class="del">85000</span> <span class="yellow">65000</span>&#8381</p>
+                    <p class="fw-6">от <span class="del">85000</span> <span class="yellow">65000</span>&#8381</p>
                     <p class="card-description">
                     <ul>
                         <li>Септик из бетоных колец</li>
@@ -357,10 +357,10 @@ require 'valid.php';
                     <div class="card-img">
                         <img src="img/c5.png" alt="img">
                     </div>
-                    <h3 class="card-title font-w">
+                    <h3 class="card-title ">
                         Набор &laquo<span class="yellow">Дренаж</span>&raquo
                     </h3>
-                    <p class="">от <span class="del">50000</span> <span class="yellow">30000</span>&#8381</p>
+                    <p class="fw-6">от <span class="del">50000</span> <span class="yellow">30000</span>&#8381</p>
                     <p class="card-description">
                     <ul>
                         <li>Дренажная система</li>
@@ -385,7 +385,7 @@ require 'valid.php';
                                 <h3 class="modal-title form-title">Укажите ваши контакты <br><span class="form-span">и мы перезвоним вам для дальнейшей покупки</span></h3>
                                 <form action="" method="post" class="form">
                                     <input type="text" name="name" placeholder="Ваше имя" class="input">
-                                    <input type="text" name="phone" placeholder="телефон" class="input">
+                                    <input type="text" name="phone" placeholder="Телефон" class="input">
                                     <button type="submit" class="gradient form-btn st-link h-link">купить</button>
                                 </form>
                             </div>
@@ -404,7 +404,7 @@ require 'valid.php';
                                 <h3 class="modal-title form-title">Укажите ваши контакты <br><span class="form-span">и мы перезвоним вам для для дальнейшей покупки</span></h3>
                                 <form action="" method="post" class="form">
                                     <input type="text" name="name" placeholder="Ваше имя" class="input">
-                                    <input type="text" name="phone" placeholder="телефон" class="input">
+                                    <input type="text" name="phone" placeholder="Телефон" class="input">
                                     <button type="submit" class="gradient form-btn st-link h-link">купить</button>
                                 </form>
                             </div>
@@ -423,7 +423,7 @@ require 'valid.php';
                                 <h3 class="modal-title form-title">Укажите ваши контакты <br><span class="form-span">и мы перезвоним вам для дальнейшей покупки</span></h3>
                                 <form action="" method="post" class="form">
                                     <input type="text" name="name" placeholder="Ваше имя" class="input">
-                                    <input type="text" name="phone" placeholder="телефон" class="input">
+                                    <input type="text" name="phone" placeholder="Телефон" class="input">
                                     <button type="submit" class="gradient form-btn st-link h-link">купить</button>
                                 </form>
                             </div>
@@ -442,7 +442,7 @@ require 'valid.php';
                                 <h3 class="modal-title form-title">Укажите ваши контакты <br><span class="form-span">и мы перезвоним вам для дальнейшей покупки</span></h3>
                                 <form action="" method="post" class="form">
                                     <input type="text" name="name" placeholder="Ваше имя" class="input">
-                                    <input type="text" name="phone" placeholder="телефон" class="input">
+                                    <input type="text" name="phone" placeholder="Телефон" class="input">
                                     <button type="submit" class="gradient form-btn st-link h-link">купить</button>
                                 </form>
                             </div>
@@ -451,6 +451,173 @@ require 'valid.php';
                 </div>
             </div>
         </section>
+        <section class="trust container">
+            <h3 class="h3 pt7">
+                Почему нам <span class="yellow">доверяют?</span>
+            </h3>
+            <div class="trust-cards">
+                <div class="trust-card">
+                    <div class="trust-img">
+                        <img src="img/trust1.png" alt="img">
+                    </div>
+                    <div class="trust-text">
+                        <h4 class="trust-title">
+                            Опыт
+                        </h4>
+                        <p class="trust-desc">
+                            Опыт нашей бригады больше 7 лет
+                        </p>
+                    </div>
+                </div>
+                <div class="trust-card">
+                    <div class="trust-img">
+                        <img src="img/trust4.png" alt="img">
+                    </div>
+                    <div class="trust-text">
+                        <h4 class="trust-title">
+                            Гарантия качества
+                        </h4>
+                        <p class="trust-desc">
+                            Увереность в надежности нашей работы
+                        </p>
+                    </div>
+                </div>
+                <div class="trust-card">
+                    <div class="trust-img">
+                        <img src="img/trust2.png" alt="img">
+                    </div>
+                    <div class="trust-text">
+                        <h4 class="trust-title">
+                            Индивидуальный подход
+                        </h4>
+                        <p class="trust-desc">
+                            Решения под конкретные нужды
+                        </p>
+                    </div>
+                </div>
+                <div class="trust-card">
+                    <div class="trust-img">
+                        <img src="img/trust1.png" alt="img">
+                    </div>
+                    <div class="trust-text">
+                        <h4 class="trust-title">
+                            Прозрачность и честность
+                        </h4>
+                        <p class="trust-desc">
+                            Понятные условия сотрудничества
+                        </p>
+                    </div>
+                </div>
+                <div class="trust-card">
+                    <div class="trust-img">
+                        <img src="img/trust3.png" alt="img">
+                    </div>
+                    <div class="trust-text">
+                        <h4 class="trust-title">
+                            Надежное оборудование
+                        </h4>
+                        <p class="trust-desc">
+                            Современные и проверенные технологии
+                        </p>
+                    </div>
+                </div>
+                <div class="trust-card">
+                    <div class="trust-img">
+                        <img class="mt-1" src="img/trust5.png" alt="img">
+                    </div>
+                    <div class="trust-text">
+                        <h4 class="trust-title">
+                            Послепродажное оборудование
+                        </h4>
+                        <p class="trust-desc">
+                            Поддержка после установки
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="trust-btn">
+                <a class="d-ib h-link gradient st-link" href="#trustmodal">Получить консультацию</a>
+            </div>
+            <div id="trustmodal" class="modal">
+                <div class="modal-dialog">
+                    <div class="modal-content modal-con">
+                        <div class="modal-header">
+
+                            <a href="#close" title="Close" class="close">&#x2715</a>
+                        </div>
+                        <div class="modal-body">
+                            <h3 class="modal-title form-title">Укажите ваши контакты <br><span class="form-span">и мы перезвоним вам для подробной консультации</span></h3>
+                            <form action="" method="post" class="form">
+                                <input type="text" name="name" placeholder="Ваше имя" class="input">
+                                <input type="text" name="phone" placeholder="телефон" class="input">
+                                <button type="submit" class="gradient form-btn st-link h-link">получить консультацию</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="steps container2">
+            <h3 class="h3 pt5 ">
+                <span class="yellow">5 простых шагов</span> к автономной канализации
+            </h3>
+            <div class="steps-cards">
+                <div class="steps-card s1">
+                    <div class="steps-img gradient">
+                         <span>1</span>
+                    </div>
+                    <div class="steps-text">
+                        <h4 class="steps-title">Заявка</h4>
+                        <p class="steps-desc">Оставьте заявку на нашем сайте или позвоните нам.</p>
+                        <p class="steps-desc">Специалисты свяжутся с вами для уточнения деталей и согласования удобного времени визита</p>
+                    </div>
+                </div>
+                <div class="steps-card s2">
+                    <div class="steps-img gradient">
+                         <span>2</span>
+                    </div>
+                    <div class="steps-text">
+                        <h4 class="steps-title">Бесплатный замер</h4>
+                        <p class="steps-desc">Наш инженер бесплатно приедет на ваш участок, проведет необходимые замеры и оценит условия для установки септика.</p>
+                        
+                    </div>
+                </div>
+                <div class="steps-card s3">
+                    <div class="steps-img gradient">
+                         <span>3</span>
+                    </div>
+                    <div class="steps-text">
+                        <h4 class="steps-title">Проэкт и договор</h4>
+                        <p class="steps-desc">Разработаем индивидуальный проэкт учитывая все нюансы.</p>
+                        <p class="steps-desc">Затем заключим договор с описанием работ и стоимости.</p>
+                    </div>
+                </div>
+                <div class="steps-card s4">
+                    <div class="steps-img gradient">
+                         <span>4</span>
+                    </div>
+                    <div class="steps-text">
+                        <h4 class="steps-title">Установка</h4>
+                        <p class="steps-desc">Профессиональная бригада выполнит монтаж точно в срок.</p>
+                        <p class="steps-desc">Все работы проводятся с соблюдением строительных норм.</p>
+                    </div>
+                </div>
+                <div class="steps-card s5">
+                    <div class="steps-img gradient">
+                         <span>5</span>
+                    </div>
+                    <div class="steps-text">
+                        <h4 class="steps-title">Принимайте работу</h4>
+                        <p class="steps-desc">После установки проводим тест системы и подписываем акт выполнених работ.</p>
+                       
+                    </div>
+                </div>
+                <div class="steps-image s6">
+                    <img src="img/bio1.png" alt="">
+                </div>
+            </div>
+        </section>
+        <a href="aclogin.php">admin</a>
     </main>
 
     <!-- <header class="fixed-top h-color">

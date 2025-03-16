@@ -5,6 +5,8 @@
 @import url(cards.css);
 @import url(form.css);
 @import url(conditions.css);
+@import url(trust.css);
+@import url(steps.css);
 
 * {
     margin: 0;
@@ -31,6 +33,13 @@ body {
 .container {
     position: relative;
     max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.container2 {
+    position: relative;
+    max-width: 820px;
     padding: 0 10px;
     margin: 0 auto;
 }
@@ -64,6 +73,7 @@ body {
 .after {
     position: relative;
     padding-left: 20px;
+    font-size: 20px;
 }
 
 .after::after {
@@ -73,7 +83,7 @@ body {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    top: 1px;
+    top: 4px;
     left: 0;
 
 }
@@ -85,6 +95,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     /* transform: scale3d(-1.4, 0.4, 0.7); */
+    font-size: 18px;
 }
 
 .h-link {
@@ -116,8 +127,27 @@ body {
     font-weight: 300;
 }
 
+.pt7{
+    padding-top: 70px;
+}
+.pt5{
+    padding-top: 50px;
+}
+
+.pt2{
+    padding-top: 20px;
+}
+
 .mb-5 {
     margin-bottom: 50px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mt-1{
+    margin-top: 10px;
 }
 
 .mt-4{
@@ -126,6 +156,10 @@ body {
 
 .mt-15{
     margin-top: 150px;
+}
+
+.d-ib {
+    display: inline-block;
 }
 
 .fs-50 {
@@ -142,6 +176,10 @@ body {
 
 .fw-9 {
     font-weight: 900;
+}
+
+.fw-6 {
+    font-weight: 600;
 }
 
 .text-grey {
@@ -234,6 +272,10 @@ body {
 @media (max-width:992px) {
     .m-r {
         margin-right: 0px;
+    }
+
+    .m-r40{
+        margin-right: 7px;
     }
 
     .min-w {

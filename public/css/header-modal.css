@@ -101,7 +101,7 @@
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 15px;
     border-bottom: 1px solid #eceeef;
 }
@@ -163,7 +163,7 @@
 @media (max-width:992px) {
     .menu {
 
-        top: 14px;
+        top: 38px;
         left: 85%;
 
     }
@@ -172,7 +172,7 @@
 @media (max-width:670px) {
     .menu {
 
-        top: 14px;
+        top: 38px;
         left: 77%;
     }
 }
@@ -180,7 +180,7 @@
 @media (max-width:551px) {
     .menu {
 
-        top: 70px;
+        top: 110px;
         left: 33px;
     }
 }

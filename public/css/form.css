@@ -25,18 +25,19 @@
     padding: 20px 0px;
     width: 80%;
     margin: 0 auto;
-    
+
 }
-.input:focus{
+
+.input:focus {
     background-color: rgb(255, 255, 255);
 }
 
-.input:active{
+.input:active {
     background-color: rgb(255, 255, 255);
 }
 
 .form-btn {
- 
+    cursor: pointer;
     outline: none;
     border: none;
     width: 50%;
@@ -45,4 +46,11 @@
 
 .form-span {
     color: var(--grey);
+}
+
+@media (max-width:500px) {
+    .form-btn {
+        width: 80%;
+        margin: 70px auto;
+    }
 }

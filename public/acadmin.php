@@ -66,8 +66,8 @@ if (isset($_GET['id'])) {
                     <tr>
                         <th><?= $user['id'] ?></th>
                         <td><?= $user['created_at'] ?></td>
-                        <td><a href="tel:<?= $user['phone'] ?>"><?= $user['phone'] ?></a></td>
-                        <td><?= $user['name'] ?></td>
+                        <td><a href="tel:<?= $user['phone'] ?>"><?= h($user['phone']) ?></a></td>
+                        <td><?= h($user['name']) ?></td>
                         <td><a class="btn btn-danger" href="?id=<?= $user['id'] ?>"> &#x2715</a></td>
                     </tr>
                 <? } ?>
