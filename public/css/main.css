@@ -7,6 +7,9 @@
 @import url(conditions.css);
 @import url(trust.css);
 @import url(steps.css);
+/* @import url(consultation.css); */
+@import url(consult.css);
+@import url(slider.css);
 
 * {
     margin: 0;
@@ -44,6 +47,13 @@ body {
     margin: 0 auto;
 }
 
+.container3 {
+    position: relative;
+    max-width: 920px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
 .success {
     color: rgb(4, 244, 12);
     font-size: 30px;
@@ -51,6 +61,29 @@ body {
     padding: 15px, 30px;
     position: relative;
     z-index: 9000;
+}
+
+.h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 30px;
+    /* padding: 90px 0px 0px 0px; */
+    margin-top: 70px;
+}
+
+.h4 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 23px;
+    margin-top: -25px;
+}
+
+.h5 {
+    font-weight: 500;
+    font-size: 22px;
+    margin: 30px 0px 5px 0px;
+    color: var(--grey);
 }
 
 .p-100 {

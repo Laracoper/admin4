@@ -1,0 +1,69 @@
+.consultation {
+    position: relative;
+    padding: 90px 0px 0px 0px;
+/* overflow: hidden; */
+}
+.consultation-bg{
+    overflow: hidden;
+}
+
+.consultation-bg img {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: blur(8px);
+}
+
+.consultation-content {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.consultation-card {
+    position: relative;
+    transform: translate(190px, 120px);
+}
+
+.consultation-title {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.consultation-text {
+    margin-bottom: 10px;
+}
+
+.consultation ul li{
+    
+}
+
+.consultation li {
+    padding-left: 15px;
+    position: relative;
+}
+
+.consultation li::after {
+    content: '';
+    top: 5px;
+    left: 0;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--btn-color);
+}
+
+.consultation-img {
+    width: 550px;
+    transform: translate(80px, 80px);
+}
+
+.consultation-form {
+    position: relative;
+    transform: scale(.8) translateX(-110px);
+
+}

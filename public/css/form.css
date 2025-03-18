@@ -42,10 +42,25 @@
     border: none;
     width: 50%;
     margin: 70px auto;
+    
 }
 
 .form-span {
     color: var(--grey);
+}
+
+.form2 {
+}
+.input2 {
+   
+}
+
+.form-btn2 {
+    margin: 40px auto;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 80%;
 }
 
 @media (max-width:500px) {

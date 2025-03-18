@@ -18,7 +18,10 @@ require 'valid.php';
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <!-- <link rel="shortcut icon" href="img/logo.png" type="image/x-icon"> -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -564,7 +567,7 @@ require 'valid.php';
             <div class="steps-cards">
                 <div class="steps-card s1">
                     <div class="steps-img gradient">
-                         <span>1</span>
+                        <span>1</span>
                     </div>
                     <div class="steps-text">
                         <h4 class="steps-title">Заявка</h4>
@@ -574,27 +577,27 @@ require 'valid.php';
                 </div>
                 <div class="steps-card s2">
                     <div class="steps-img gradient">
-                         <span>2</span>
+                        <span>2</span>
                     </div>
                     <div class="steps-text">
                         <h4 class="steps-title">Бесплатный замер</h4>
                         <p class="steps-desc">Наш инженер бесплатно приедет на ваш участок, проведет необходимые замеры и оценит условия для установки септика.</p>
-                        
+
                     </div>
                 </div>
                 <div class="steps-card s3">
                     <div class="steps-img gradient">
-                         <span>3</span>
+                        <span>3</span>
                     </div>
                     <div class="steps-text">
-                        <h4 class="steps-title">Проэкт и договор</h4>
+                        <h4 class="steps-title">Проeкт и договор</h4>
                         <p class="steps-desc">Разработаем индивидуальный проэкт учитывая все нюансы.</p>
                         <p class="steps-desc">Затем заключим договор с описанием работ и стоимости.</p>
                     </div>
                 </div>
                 <div class="steps-card s4">
                     <div class="steps-img gradient">
-                         <span>4</span>
+                        <span>4</span>
                     </div>
                     <div class="steps-text">
                         <h4 class="steps-title">Установка</h4>
@@ -604,17 +607,177 @@ require 'valid.php';
                 </div>
                 <div class="steps-card s5">
                     <div class="steps-img gradient">
-                         <span>5</span>
+                        <span>5</span>
                     </div>
                     <div class="steps-text">
                         <h4 class="steps-title">Принимайте работу</h4>
                         <p class="steps-desc">После установки проводим тест системы и подписываем акт выполнених работ.</p>
-                       
+
                     </div>
                 </div>
                 <div class="steps-image s6">
                     <img src="img/bio1.png" alt="">
                 </div>
+            </div>
+        </section>
+        <section class="consultation ">
+            <div class="consultation-bg">
+                <img class="filter" src="img/bg3.png" alt="bg-img">
+            </div>
+            <div class="consultation-content container">
+                <div class="consultation-card cons1">
+                    <h5 class="consultation-title">
+                        Закажите консультацию а также замер <span class="yellow">БЕСПЛАТНО !</span>
+                    </h5>
+                    <p class="consultation-text">
+                        На бесплатном выезде специалист замерщик
+                    </p>
+                    <ul>
+                        <li>Сделает точный замер</li>
+                        <li>Определит подходящую станцию для вас</li>
+                        <li>Расскажет этапы установки</li>
+                        <li>Соорентирует по срокам</li>
+                    </ul>
+                </div>
+                <div class="consultation-img cons2">
+                    <img src="img/man.png" alt="img">
+                </div>
+                <div class="consultation-form cons3">
+                    <div class="modal-dialog">
+                        <div class="modal-content modal-con">
+
+                            <div class="modal-body">
+                                <h3 class="modal-title form-title">Укажите ваши контакты <br><span class="form-span">и мы перезвоним вам для консультации</span></h3>
+                                <form action="" method="post" class="form">
+                                    <input type="text" name="name" placeholder="Ваше имя" class="input">
+                                    <input type="text" name="phone" placeholder="телефон" class="input">
+                                    <button type="submit" class="gradient form-btn2 st-link h-link">узнать подробнее</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews container3">
+            <h3 class="h3 yellow">
+                Отзывы наших клиентов
+            </h3>
+            <h4 class="h4">Ваше мнение о наших работах</h4>
+            <div class="slider-container">
+                <div class="swiper slider-body">
+
+                    <div class="swiper-wrapper slider-wrap">
+                        <div class="swiper-slide slider-card">
+                            <div class="slider-img">
+                                <img src="img/slider1.jpg" alt="slider-img">
+                            </div>
+                            <h5 class="h5">Монтаж септика с бетонированием основания</h5>
+                            <div class="slider-review">
+                                <div class="slider-photo">
+                                    <img src="img/s-photo1.png" alt="photo">
+                                </div>
+                                <p class="slider-name">
+                                    Ангидов Александр
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide slider-card">
+                            <div class="slider-img">
+                                <img src="img/slider2.jpg" alt="slider-img">
+                            </div>
+                            <h5 class="h5">Установка септика с укреплением грунта</h5>
+                            <div class="slider-review">
+                                <div class="slider-photo">
+                                    <img src="img/girl.png" alt="photo">
+                                </div>
+                                <p class="slider-name">
+                                    Фельдина Ангелина
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider-card">
+                            <div class="slider-img">
+                                <img src="img/bak.jpg" alt="slider-img">
+                            </div>
+                            <h5 class="h5">Установка септика с организацией дренажной системы</h5>
+                            <div class="slider-review">
+                                <div class="slider-photo">
+                                    <img src="img/s-man.png" alt="photo">
+                                </div>
+                                <p class="slider-name">
+                                    Вактугин Михаил
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider-card">
+                            <div class="slider-img">
+                                <img src="img/krishki.jpg" alt="slider-img">
+                            </div>
+                            <h5 class="h5">Монтаж септика с утеплением: система для круглогодичного использования</h5>
+                            <div class="slider-review">
+                                <div class="slider-photo">
+                                    <img src="img/diana.png" alt="photo">
+                                </div>
+                                <p class="slider-name">
+                                    Сергеева Диана
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slider-card">
+                            <div class="slider-img">
+                                <img src="img/bak2.jpg" alt="slider-img">
+                            </div>
+                            <h5 class="h5">Установка с принудительным выбросом</h5>
+                            <div class="slider-review">
+                                <div class="slider-photo">
+                                    <img src="img/man2.png" alt="photo">
+                                </div>
+                                <p class="slider-name">
+                                    Липнин Петр
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slider-content">
+                    <!-- <h2>slider-content</h2>
+                    <img src="img/spanch-bob.jpg" alt=""> -->
+                    <div class="swiper phone-sl">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider-ph">
+                                    <img src="img/ph1.png" alt="slider-img">
+                                </div>
+                            </div>
+                            <!-- <div class="swiper-slide">
+                                <div class="slider-ph">
+                                    <img src="img/ph2.png" alt="slider-img">
+                                </div>
+                            </div> -->
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="slider-btns">
+                <div class="b-prev swiper-button-prev"></div>
+                <div class="b-next swiper-button-next"></div>
+            </div>
+
+
+        </section>
+        <section class="contact container">
+            <div class="contact-text">
+
+            </div>
+            <div class="contact-map">
+
             </div>
         </section>
         <a href="aclogin.php">admin</a>
@@ -671,7 +834,9 @@ require 'valid.php';
 
         <a href="aclogin.php">acadmin</a>
     </main> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/default.js"></script>
+    <script src="js/swiper.js"></script>
 </body>
 
 </html>
