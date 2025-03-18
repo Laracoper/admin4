@@ -57,6 +57,14 @@
 
     
 }
+
+.sl-box{
+    display: block;
+}
+
+.phone-sl{
+    min-width: 0;
+}
 .slider-ph img{
     /* position: absolute;
     top: 0;

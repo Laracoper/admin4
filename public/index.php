@@ -745,6 +745,7 @@ require 'valid.php';
                 <div class="slider-content">
                     <!-- <h2>slider-content</h2>
                     <img src="img/spanch-bob.jpg" alt=""> -->
+
                     <div class="swiper phone-sl">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -753,14 +754,20 @@ require 'valid.php';
                                 </div>
                             </div>
                             <!-- <div class="swiper-slide">
-                                <div class="slider-ph">
-                                    <img src="img/ph2.png" alt="slider-img">
+                                    <div class="slider-ph">
+                                        <img src="img/ph2.png" alt="slider-img">
+                                    </div>
                                 </div>
-                            </div> -->
-                            
-                           
+                                <div class="swiper-slide">
+                                    <div class="slider-ph">
+                                        <img src="img/ph2.png" alt="slider-img">
+                                    </div>
+                                </div> -->
+
                         </div>
                     </div>
+
+
                 </div>
 
             </div>
@@ -773,12 +780,29 @@ require 'valid.php';
 
         </section>
         <section class="contact container">
-            <div class="contact-text">
-
+            <div class="contact-box">
+                <div class="contact-text">
+                    <h2 class="contact-title">КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+                    <div class="contact-email">
+                        <p class="p-title yellow">Email</p>
+                        <a class="p-text" href="mailto:INFO@TATAR-SEPTIC.RU">INFO@TATAR-SEPTIC.RU</a>
+                    </div>
+                    <div class="contact-phone">
+                        <p class="p-title yellow">Телефон</p>
+                        <a class="p-text" href="tel:+79503108090">+7(950)310-80-90</a>
+                    </div>
+                    <div class="contact-work">
+                        <p class="p-title yellow">График работы</p>
+                        <p class="p-text">ПО БУДНЯМ С 9:00 ДО 17:00</p>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <div class="contact-ya">
+                        <div ><a href="https://yandex.ru/maps/43/kazan/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Казань</a><a href="https://yandex.ru/maps/43/kazan/?ll=49.106414%2C55.796129&utm_medium=mapframe&utm_source=maps&z=12" style="color:#eee;font-size:12px;position:absolute;top:14px;">Карта Казани с улицами и номерами домов — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=49.106414%2C55.796129&z=12" frameborder="0" allowfullscreen="true"></iframe></div>
+                    </div>
+                </div>
             </div>
-            <div class="contact-map">
 
-            </div>
         </section>
         <a href="aclogin.php">admin</a>
     </main>
